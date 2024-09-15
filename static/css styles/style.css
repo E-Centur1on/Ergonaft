@@ -1,0 +1,23 @@
+span {
+    color: red;
+    font-size: 150%;
+    position: relative;
+}
+.marking {
+    background-color: aqua;
+    font-size: 150%;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    border: solid 1px black;
+}
+.top {
+    background-color: antiquewhite;
+    display: inline-block;
+    margin: 10px;
+}
+.bottom {
+    background-color: aquamarine;
+    margin: 10px;
+    text-align: center;
+}
