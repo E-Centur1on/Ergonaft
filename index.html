@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Головна</title>
+    <link rel="icon" href="static/images/Ergonaft-logo.png">
     <link rel="stylesheet" href="static/css styles/style.css">
     <link rel="stylesheet" href="static/css styles/slider.css">
+    <link rel="stylesheet" href="static/css styles/content.css">
+    <link rel="stylesheet" href="static/css styles/product-cards.css">
 </head>
 <body>
     <nav class="navbar">
@@ -18,16 +21,10 @@
                     <li><a href="#">Ціни</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
-                <a href="#" class="callback">Зворотній дзвінок</a>
+                <a href="Login.html" class="callback">Аккаунт</a>
             </div>
         </div>
     </nav>
-    <header class="top">   
-        <img src="static/images/Логотип.jpg" alt="Логотип" width="100px">
-        <h1>
-            <p> <span> ТОП-10 </span> найкращих книг для читання в 2020 році</p>
-        </h1>
-    </header>
     <div class="slider middle">
         <div class="slides">
             <input type="radio" name="r" id="r1" checked>
@@ -47,24 +44,214 @@
             <label for="r4" class="bar"></label>
         </div>
     </div>
-    <div class="marking">
-        <ol>
-            <li>Для мотивації — Джен Сінсеро «Не тупи»</li>
-            <li>Тренд року — Анджей Сапковський «Останнє бажання»</li>
-            <li>Романтичне — Джейн Остін «Емма»</li>
-            <li>Історична фантастика — Кендарі Блейк «Два темних королівства»</li>
-            <li>Актуальна класика — Габріель Гарсіа Маркес «Сто років самотності»</li>
-            <li>Український роман — Софія Андрухович «Фелікс-Австрія»</li>
-            <li>Актуальна філософія — Філіп Зімбардо «Ефект Люцифера»</li>
-            <li>Українська наукова фантастика — Макс Кідрук «Поки світ не піде назавжди»</li>
-            <li>Історичне — Ніл Фергюсон «Імперія: чим сучасний світ зобов'язаний Британії»</li>
-            <li>Медицина і здоров'я — Еула Бісс «На варті імунітету»</li>
-        </ol>
+    <div class="content-between">
+        <div class="catalog-1">
+             <a href="#" class="TV" >
+             <div class="content-text-tv">
+                 <h4>
+                     <span>Телевізори</span>
+                </h4>
+                <p class="about-TV">
+                     Світові прем'єри для кожного в домі
+                </p>
+            </div>
+            </a>
+        </div>
+        <div class="catalog-2">
+            <a href="#" class="Laptop">
+            <div class="content-text-laptop">
+                <h4>
+                    <span>Ноутбуки</span>
+                </h4>
+                <p class="about-laptop">
+                    сучасні ноутбуки для роботи та ігор
+                </p>
+            </div>
+            </a>
+            <a href="#" class="Pc">
+            <div class="content-text-pc">
+                <h4>
+                    <span>Комп'ютери</span>
+                </h4>
+                <p class="about-pc">
+                    Потужні комп'ютери для роботи та ігор
+                </p>
+            </div>
+            </a>
+        </div>
+        <div class="catalog-3">
+            <a href="#" class="board" >
+            <div class="content-text-board">
+                <h4>
+                    <span>Планшети</span>
+               </h4>
+               <p class="about-board">
+                    Міні-комп'ютери для повсякденного використання
+               </p>
+           </div>
+           </a>
+       </div>
+       <div class="catalog-4">
+        <a href="#" class="Phone">
+        <div class="content-text-Phone">
+            <h4>
+                <span>Смартфони</span>
+            </h4>
+            <p class="about-Phone">
+                Твій особистий цифровий помічник
+            </p>
+        </div>
+        </a>
+        <a href="#" class="router">
+        <div class="content-text-router">
+            <h4>
+                <span>Роутери</span>
+            </h4>
+            <p class="about-router">
+                Інтернет для кожного вдома
+            </p>
+        </div>
+        </a>
     </div>
-    <footer class="bottom">
-        <h2>
-            <p>Завантажити книгу на iPhone можна <a href="https://www.apple.com/ua/iphone/" target="_blank">тут</a></p>
-        </h2>
+    </div>
+    <div class="container">
+        <h4 class="prop-text">Нові пропозиції</h4>
+        <div class="row">
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-1.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>Sony XR-55A80J</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">45 999<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-2.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>COBRA Advanced</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">27 099<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-3.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>2021 ROG Strix G15</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">36 999<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-4.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>Xiaomi Redmi Pad 3/64GB</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">7 333<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-5.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>Apple iPhone 15 Pro Max</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-half"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">59 400<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <div class="image">
+                    <img src="static/images/product-img-6.png" alt="">
+                </div>
+                    <div class="info">
+                        <h3>TP-LINK Archer MR200 V4</h3>
+                        <ul class="rating">
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                    <div class="info-price">
+                         <span class="price">4 799<small>₴</small></span>
+                         <button class="add-to-cart"><ion-icon name="cart-outline" class="icon"></ion-icon></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="about-us">
+        <div class="container-about-us">
+            <div class="row-end-text">
+                <div class="about-item">
+                    <h4 class="footer-text-1">
+                        Завжди на зв'язку
+                    </h4>
+                    <p class="footer-text-2">
+                        Виникли запитання? Ми з радістю вам допоможемо!
+                    </p>
+                    <ul>
+                        <li class="fb"><a href="#">Написати в чат</a></li>
+                        <li class="email"><a href="#">Написати листа</a></li>
+                        <li class="phone"><a href="#">Зателефонувати</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
