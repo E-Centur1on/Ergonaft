@@ -28,6 +28,7 @@ body {
     color: black;
     opacity: 0.6;
     text-decoration: none;
+    text-transform: uppercase;
     padding: 10px;
     transition: all .07s ease-in-out;
 }
@@ -47,6 +48,7 @@ body {
     border-radius: 100px;
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: 600;
     box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
     transition: all .1s ease-in-out;
@@ -87,6 +89,8 @@ body {
 }
 .row-end-text {
     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
@@ -180,4 +184,13 @@ body {
     background-position: 50%;
     height: 60px;
     width: 5px;
+}
+.about-item ul li a:hover {
+    transition: all .1s ease-in-out;
+    scale: 1.05;
+}
+.row-end-text p {
+    text-transform: uppercase;
+    bottom: 50px;
+    color: #fff;
 }

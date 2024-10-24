@@ -48,6 +48,11 @@
     font-size: 30px;
     margin-bottom: 0;
     color: rgb(35, 36, 38, .8);
+    text-decoration: none;
+}
+.info h3:hover {
+    color: coral;
+    text-decoration: underline;
 }
 .rating {
     margin-bottom: 0;
@@ -80,6 +85,11 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
     cursor: pointer;
+}
+.add-to-cart:hover {
+    transition: all .1s ease-in-out;
+    background-color: coral;
+    scale: 1.05;
 }
 .add-to-cart .icon {
     width: 40px;
